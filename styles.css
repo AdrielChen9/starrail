@@ -34,8 +34,8 @@
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
-    -webkit-background-clip: transparent;
-    -moz-background-clip: Transparent; 
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
     display: flex; 
     align-items: center; 
     cursor: pointer; 
@@ -125,7 +125,7 @@
         z-index: -1; 
         background: #131313;
     }
-    
+
     .navbar__menu.active {
         background: #131313; 
         top: 100%; 
