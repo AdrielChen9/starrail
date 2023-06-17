@@ -46,11 +46,6 @@
     display: flex; 
     width: 160px; 
     height: 130px;
-    /* position: fixed;
-    top: -25px; 
-    margin-left: -1000 px;
-    z-index: 999; */
-    /* position: fixed;  */
 }
 
 .fa-gem {
@@ -76,6 +71,7 @@
     text-decoration: none;
     padding: 0 1rem; 
     height: 100%; 
+    right: 200px;   
 }
 
 .navbar__btn {

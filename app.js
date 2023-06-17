@@ -26,13 +26,13 @@ function DoPosition()
 {
     if( 200 + $("#navbar__logo img").width() > $(window).width() )
     {
-        $("##navbar__logo img").addClass("stickRight");
-        $("##navbar__logo img").removeClass("naturalPos");               
+        $("#navbar__logo img").addClass("stickRight");
+        $("#navbar__logo img").removeClass("naturalPos");               
     }
     else
     {        
-        $("##navbar__logo img").addClass("naturalPos");
-        $("##navbar__logo img").removeClass("stickRight");
+        $("#navbar__logo img").addClass("naturalPos");
+        $("#navbar__logo img").removeClass("stickRight");
     }
 }
 
