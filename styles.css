@@ -29,18 +29,28 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; 
     display: flex; 
+    justify-content: center;
     align-items: center; 
     cursor: pointer; 
     text-decoration: none;
+    position: fixed; 
+    top: -20px; 
+    left: 20px;
+    z-index: 999; 
     font-size: 2rem; 
+}
+
+
+#navbar__logo img {
+    display: flex; 
+    width: 160px; 
+    height: 130px;
+    /* position: fixed;
+    top: -25px; 
+    margin-left: -1000 px;
+    z-index: 999; */
+    /* position: fixed;  */
 }
 
 .fa-gem {
@@ -125,7 +135,7 @@
         z-index: -1; 
         background: #131313;
     }
-
+    
     .navbar__menu.active {
         background: #131313; 
         top: 100%; 
@@ -137,8 +147,16 @@
     }
 
     #navbar__logo{
-        padding-left: 25px;
+        top: -20px; 
+        left: 20px; 
+        /* padding-left: 25px; */
     }
+
+    /* #navbar__logo img{
+        top: 1vh; 
+        left: 1vh; 
+    } */
+
 
     .navbar__toggle .bar{
         width: 25px; 
