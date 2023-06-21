@@ -3,21 +3,6 @@
     overflow: hidden;
   }
   
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -44,13 +29,3 @@
     display: block;
   }
 
-/* .navbar__dropdown-item { 
-    position: absolute; 
-    top: calc(100% + 0.25rem); 
-    left: 0; 
-    background-color: gray;
-    padding: .75rem;
-    border-readius: .25rem;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.1);
-}
- */
