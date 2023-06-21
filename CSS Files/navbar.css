@@ -155,10 +155,10 @@
         /* padding-left: 25px; */
     }
 
-    /* #navbar__logo img{
+    #navbar__logo img{
         top: 1vh; 
         left: 1vh; 
-    } */
+    }
 
 
     .navbar__toggle .bar{
