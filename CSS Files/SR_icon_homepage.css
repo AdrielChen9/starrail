@@ -1,7 +1,7 @@
 .home-button{
     display: inline-block;
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 20000px;
     background: url('../images/sr\ icon.png') no-repeat center center; 
     background-size: cover; 
 };
