@@ -20,3 +20,10 @@ menuLogo.addEventListener("resize", function(){
         icon.style.right = '0';
     }
 });
+
+const homeLogo = document.getElementById("homeBTN");
+homeLogo.addEventListener("click", redirectToHome);
+function redirectToHome(){
+    event.preventDefault(); 
+    window.location.href = "HomeScreen.html";
+}
