@@ -1,8 +1,4 @@
- .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
