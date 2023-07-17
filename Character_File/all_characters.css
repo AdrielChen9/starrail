@@ -1,0 +1,7 @@
+.star-icon {
+    display: inline-block;
+    width: 16px;  /* Adjust the size as needed */
+    height: 16px; /* Adjust the size as needed */
+    background-image: url(images/stars.png); /* Replace with the path to your star image */
+  }
+  
