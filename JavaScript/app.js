@@ -27,3 +27,4 @@ function redirectToHome(){
     event.preventDefault(); 
     window.location.href = "HomeScreen.html";
 }
+
